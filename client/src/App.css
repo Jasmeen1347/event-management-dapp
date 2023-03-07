@@ -1,0 +1,50 @@
+.navbar-brand {
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.nav-link{
+  color: #000;
+}
+
+.navbar{
+  background-color: #F4B9B8;
+}
+
+.footer-bg{
+  background-color: #F4B9B8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+body{
+  background-color: rgb(245, 185, 184, 0.1);
+}
+
+.card{
+  -webkit-box-shadow: 2px 3px 29px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 29px -10px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 29px -10px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+.custom-button-color{
+  background-color: #85D2D0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.card-image{
+  height: 200px;
+  /* width: max-content; */
+}
+.circle-check-icon{
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  color:#85D2D0;
+}
