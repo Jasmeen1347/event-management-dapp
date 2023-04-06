@@ -46,12 +46,13 @@ const NavBar = (args) => {
     <div>
       <Navbar container='lg'>
         <NavbarBrand href="/">Event Managemnt</NavbarBrand>
-          <Nav className="">
+        <p>Please connect with Goerli Testnet to load data</p>  
+        <Nav className="">
           {connectedAccount && (
             <>
             <NavItem>
               <Link className='nav-link' to="/">Home</Link>
-          </NavItem>
+            </NavItem>
 
             <NavItem>
               <Link className='nav-link' to="/addevent">Add Event</Link>
